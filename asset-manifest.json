@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/edgyn-website/static/css/main.dfca195d.chunk.css",
+    "main.js": "/edgyn-website/static/js/main.68c6eed4.chunk.js",
+    "main.js.map": "/edgyn-website/static/js/main.68c6eed4.chunk.js.map",
+    "runtime-main.js": "/edgyn-website/static/js/runtime-main.e602f0dd.js",
+    "runtime-main.js.map": "/edgyn-website/static/js/runtime-main.e602f0dd.js.map",
+    "static/js/2.a78e6e57.chunk.js": "/edgyn-website/static/js/2.a78e6e57.chunk.js",
+    "static/js/2.a78e6e57.chunk.js.map": "/edgyn-website/static/js/2.a78e6e57.chunk.js.map",
+    "index.html": "/edgyn-website/index.html",
+    "precache-manifest.a30396dc5e27e78c8fd46a5c5a834a75.js": "/edgyn-website/precache-manifest.a30396dc5e27e78c8fd46a5c5a834a75.js",
+    "service-worker.js": "/edgyn-website/service-worker.js",
+    "static/css/main.dfca195d.chunk.css.map": "/edgyn-website/static/css/main.dfca195d.chunk.css.map",
+    "static/media/logo.svg": "/edgyn-website/static/media/logo.25bf045c.svg"
+  }
+}
