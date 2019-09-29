@@ -19,7 +19,7 @@ const Footer: React.FC = () =>
         <div className="yellow" />
         <div className="blue" />
         <div className="social-media">
-        <Button href="https://twitter.com/EdgynGroup" shape={"circle"} type={"primary"}>
+        <Button href="https://twitter.com/edgynGroup" shape={"circle"} type={"primary"}>
             <Icon type="twitter" />
         </Button>
         </div>
