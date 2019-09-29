@@ -1,6 +1,10 @@
 body {
-  margin: 0;
-  font-family: 'Nunito Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.Layout {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
 }

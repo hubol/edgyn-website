@@ -1,17 +1,27 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from './assets/edgyn-logo.svg';
 import './App.css';
 import Footer from "./Footer";
 
 const App: React.FC = () =>
-<>
-  <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>We're coming soon.</p>
-    </header>
-  </div>
-  <Footer />
-</>;
+{
+  let [animationCounter, setAnimationCounter] = useState(0);
+  let animationClassName = animationCounter % 2 === 0 ? "alert" : "twirl"; 
+  let logoClassName = animationCounter ? `App-logo ${animationClassName}` : "App-logo";
+  
+  return <div className="Layout">
+    <div className="App">
+      <header className="App-header">
+        <img
+            src={logo}
+            className={logoClassName}
+            alt="edgyn Logo"
+            onClick={() => setAnimationCounter(animationCounter + 1)} />
+        <p>We're coming soon.</p>
+      </header>
+    </div>
+    <Footer />
+  </div>;  
+};
 
 export default App;

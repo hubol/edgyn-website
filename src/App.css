@@ -1,16 +1,47 @@
+.Layout .App {
+  flex: 1 1 0;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
+  transform: rotateZ(0) scale(1);
   width: 70vmin;
+  cursor: pointer;
 }
+
+.App-logo.twirl {
+  animation: twirl 1s;
+}
+
+.App-logo.alert {
+  animation: alert 0.5s;
+}
+
+@keyframes twirl {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes alert {
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 
 .App-header {
   background-color: #F0F0FF;
   color: #202030;
   
-  min-height: 85vh;
+  height: 100%;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
