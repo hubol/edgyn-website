@@ -7,7 +7,6 @@
 }
 
 .App-logo {
-  transform: rotateZ(0) scale(1);
   width: 70vmin;
   cursor: pointer;
 }
@@ -21,6 +20,9 @@
 }
 
 @keyframes twirl {
+  0% {
+    transform: rotateZ(0deg);
+  }
   100% {
     transform: rotateZ(360deg);
   }
@@ -30,7 +32,7 @@
   50% {
     transform: scale(1.5);
   }
-  100% {
+  100%, 0% {
     transform: scale(1);
   }
 }
