@@ -1,6 +1,6 @@
 {
   "name": "edgyn-website",
-  "homepage": "https://www.edgyn.com",
+  "homepage": "https://edgyn.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
