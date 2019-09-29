@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import logo from './assets/edgyn-logo.svg';
 import './App.css';
 import Footer from "./Footer";
+import Backdrop from "./Backdrop";
 
 const App: React.FC = () =>
 {
@@ -11,6 +12,7 @@ const App: React.FC = () =>
   
   return <div className="Layout">
     <div className="App">
+      <Backdrop />
       <header className="App-header">
         <img
             src={logo}

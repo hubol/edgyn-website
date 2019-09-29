@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -7,4 +8,8 @@ body {
   display: flex;
   flex-flow: column;
   height: 100vh;
+}
+
+p {
+  margin: 0;
 }
